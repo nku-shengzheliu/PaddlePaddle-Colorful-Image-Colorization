@@ -4,7 +4,7 @@
 
 本项目基于paddlepaddle框架复现"Colorful image colorization."，它的主体是作者设计搭建的卷积神经网络。网络的pipeline如下图所示：
 
-<img src="https://github.com/nku-shengzheliu/PaddlePaddle-Colorful-Image-Colorization/blob/main/colornet.JPG" width = 60% height = 60% align=center/>
+<img src="https://github.com/nku-shengzheliu/PaddlePaddle-Colorful-Image-Colorization/blob/main/colornet.JPG" width = 80% height = 80% align=center/>
 
 此外，为了处理自然图像中存在的低饱和度现象，作者还设计了Lab色彩空间的量化策略，使用分类的形式处理图像着色问题。并统计了imagenet数据集中每种量化级别的先验概率信息，作为计算损失时的权重。
 
